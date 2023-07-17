@@ -1,6 +1,6 @@
 # A TensorFlow implementation of DeepMind's WaveNet paper
 
-In addition, [librosa](https://github.com/librosa/librosa) must be installed for reading and writing audio.
+[Librosa](https://github.com/librosa/librosa) must be installed for reading and writing audio.
 
 To install the required python packages, run
 ```bash
@@ -120,9 +120,3 @@ Run the test suite
 
 Currently there is no local conditioning on extra information which would allow
 context stacks or controlling what speech is generated.
-
-
-## Related projects
-
-- [tex-wavenet](https://github.com/Zeta36/tensorflow-tex-wavenet), a WaveNet for text generation.
-- [image-wavenet](https://github.com/Zeta36/tensorflow-image-wavenet), a WaveNet for image generation.
